@@ -11,3 +11,11 @@ State, Illustration Type, Plan Type, Product 2
 State, Illustration Type, Plan Type 2, Product 1
 
 State, Illustration Type, Plan Type 2, Product 2
+
+The ageInput.csv file will contain the ages to test and then two additional values per line.
+
+The format for each line is as follows:
+Age 1,0,1
+Age 2,2,3
+
+The first value is the age. The next two values on each line are a count that is used for the pop up windows that appear when the script is running. If you have to run a script starting at a different age, make sure the values next to the first age start with 0 and 1.
