@@ -18,3 +18,7 @@ Age 2,  2,  3
 The first value is the age. The next two values on each line are a count that is used for the 
 pop up windows that appear when the script is running. If you have to run a script starting at a 
 different age, make sure the values next to the first age start with 0 and 1.
+
+This file location is configured under Test > LPATest.java as String sourceFile.   Make sure to change this value to meet your requirements when running the test.
+      
+You will also need to create a results file for the LPA test. The name of the results file in the script is referenced as String pathFile and is titled lpaResults.csv.     Make sure to create an empty csv file matching this name and set the path, then the script will have a results location.
